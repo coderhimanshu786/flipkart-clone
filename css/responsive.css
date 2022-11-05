@@ -1,0 +1,53 @@
+/* For mobile phones: */
+@media only screen and (max-width: 1000px)  {
+    [class*="col-"] {
+        width: 100%;
+      }
+    body {
+      background-color: #fff;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        justify-content: center;
+        margin: 20px auto;
+    }
+    .text{
+        justify-content: center;
+        margin: -22px 200px -27px 182px;
+    }
+    .plus img{
+        justify-content: center;
+        margin: 10px 300px;
+    }
+    .cards-0{
+        display: none;
+    }
+    .button-1{
+        display: flex;
+       margin: 12px 12px 12px 12px;
+        width: 70vw;
+    }
+    .button-1 input{
+        font-size: medium;
+    }
+    .button-2{
+        display: flex;
+        width: 40px;
+        margin: -50px 350px auto;
+    }
+    .login{
+        margin: -48px 350px 20px;
+    }
+    .card-item img{
+        width: 143px;
+        padding: 2vh;
+    }
+    .arrow{
+        display: none;
+    }
+
+  }
+
+   
